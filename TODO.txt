@@ -1,0 +1,3 @@
+- textarea -> full size
+- profile picture -> different each
+- dark mode
