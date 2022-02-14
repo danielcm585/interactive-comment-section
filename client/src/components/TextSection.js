@@ -17,7 +17,7 @@ export default function TextSection({ onReply, commentId }) {
   const [ value, setValue ] = useState(defaultValue);
 
   return (
-    <Box p="4" bg="gray.50" borderRadius="lg">
+    <Box p="4" mt="2" bg="gray.50" borderRadius="lg">
       <Flex>
         <Image h="8" src={require("./images/avatars/image-amyrobson.png")} />
         <Textarea ml="3" borderRadius="lg" borderColor="purple.600" focusBorderColor="purple.600"
